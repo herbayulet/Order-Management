@@ -19,7 +19,7 @@ const Sidebar = () => {
         onClick={() => handleLinkClick("#")}
       >
         <ClipboardList color="#ffffff" />
-        <a href="/#" className="block py-2 text-lg text-white  ">
+        <a href="#" className="block py-2 text-lg text-white  ">
           Order Management
         </a>
       </div>

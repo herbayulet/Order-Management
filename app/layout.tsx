@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/sidebar";
 import Navbar from "@/components/navbar";
+import ReactQueryProvider from "@/components/reactquery";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
