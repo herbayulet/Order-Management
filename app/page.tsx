@@ -1,4 +1,5 @@
 import Cardtable from "@/components/cardtable";
+import RootLayout from "./layout";
 
 export default function Home() {
   return (

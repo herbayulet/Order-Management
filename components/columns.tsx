@@ -1,8 +1,9 @@
-// column.ts
 "use client";
-import { Orders } from "@/type/orders";
-import { ColumnDef, CellContext } from "@tanstack/react-table";
+
+import { ColumnDef } from "@tanstack/react-table";
+import React from "react";
 import { PencilLine, ReceiptText, Trash2 } from "lucide-react";
+import { Orders } from "../type/orders";
 
 export const columns: ColumnDef<Orders>[] = [
   {
